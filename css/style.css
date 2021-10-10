@@ -1,0 +1,509 @@
+
+
+
+body{
+    font-family: 'Montserrat', sans-serif;    
+    background-color: #282828;
+}
+
+/*******top-section**********/
+.top-section{
+    position: relative;
+    width: 100%;
+    height: 750px;
+    background-image: url(../assets/sean-pollock-PhYq704ffdA-unsplash.jpg);
+    background-size: cover;
+    z-index: 1;
+}
+.top-section .navbar-brand img{
+    width: 350px;
+    height: 50px;
+}
+.overlay-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background:hsla(0, 0%, 0%, 0.7);
+}
+.top-section .nav-link {
+    color: white!important;
+    letter-spacing: 1px!important;
+    margin-right: 60px!important;
+}
+.top-section .nav-link:hover {
+    color: #F58225!important;
+    transition: all .5s ease-in-out;
+}/*
+.navbar-dark{
+    background: #00000091;
+
+}*/
+.sticky{
+    background: #00000091!important;
+}
+.top-section .navbar {
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+.top-section .navbar-toggler {
+    padding: 6px 8px 0px 7px!important;
+    font-size: 23px!important;
+    background-color: #dbd9d9!important;
+    border: 1px solid #dbd9d9!important;
+    text-align: center!important;
+}
+.top-section .navbar .btn.btn-primary {
+    background-color: #fff!important;
+    border-color: #fff!important;
+    color: #F58225;
+}
+.top-section .navbar .btn {
+    padding: 11px 17px!important;
+    width: 209px!important;
+    height: 47px!important;
+    font-size: 17px!important;
+    border-radius: 0!important;
+    margin-right: 12px;
+}
+.top-section .content .btn.btn-primary ,
+.who-we-are .btn.btn-primary ,
+.what-we-do .service-top .btn.btn-primary
+,.contact-us .btn.btn-primary{
+    background-color: #F58225!important;
+    border-color: #F58225!important;
+}
+.top-section .content .btn ,
+.who-we-are .btn ,
+.what-we-do .service-top .btn
+,.contact-us .btn{
+    padding: 11px 17px!important;
+    width: 248px!important;
+    height: 47px!important;
+    font-size: 17px!important;
+    margin-left: -6px!important;
+    margin-top: 42px!important;
+    border-radius: 0!important;
+}
+
+.top-section .content{
+    color: white;
+}
+.top-section .content span{
+    color: #F58225;
+}
+.top-section .content {
+    width: 51%;
+    margin: auto;
+    margin-top: 17%;
+}
+.top-section .content h1 {
+    font-size: 52px;
+    font-weight: 700;
+}
+/*******top-section**********/
+
+
+/********undr-screen******/
+.undr-screen {
+    background-color: white;
+    width: 63%;
+    padding: 50px;
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    top: 90%;
+    left: 18%;
+}
+.undr-screen .media img {
+    width: 71px;
+    height: 61px;
+    border-radius: 7px;
+}
+.undr-screen .media h5{
+    color: #F58225;
+}
+.undr-screen q {
+    margin-left: 23px;
+    font-size: 16px;
+}
+.undr-screen .media-body {
+    width: 150px;
+    border-right: 2px solid #e7e3e3;
+}
+
+/********who-we-are******/
+.who-we-are{
+    color: white;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+.who-we-are img {
+    width: 407px;
+    height: 466px;
+    margin-bottom: 50px;
+}
+.who-we-are h5,
+.what-we-do .service-top h5,
+.why-us .headd h5,
+.contact-us .headd h5{
+    color: gray;
+}
+.who-we-are h1 ,
+.what-we-do .service-top h1,
+.why-us .headd h1,
+.contact-us .headd h1{
+    margin-bottom: 39px;
+    letter-spacing: 1px;
+    font-size: 43px;
+   /* width: 795px;*/
+   margin-right: 41%;
+   line-height: 61px;
+   color: white;
+}
+.who-we-are p ,
+.what-we-do .service-top p{
+    font-size: 19px;
+    line-height: 34px;
+}
+/*******who-we-are*****/
+
+/**********what-we-do**********/
+.what-we-do{
+    color: white;
+    margin-top: 80px;
+    margin-bottom: 200px;
+}
+.what-we-do .service-top {
+    /* width: 500px; */
+    margin-right: 22%;
+}
+.what-we-do .services {
+    margin-top: 50px;
+}
+.what-we-do .services .ts-item:hover {
+    background-color: #F58225;
+}
+.what-we-do .services .ts-item {
+    background: #ffffff;
+    padding: 35px 25px 30px 25px;
+    height: 330px;
+    overflow: hidden;
+    transition: all 0.3s;
+    margin-bottom: 20px;
+}
+.what-we-do .services .ts-item .ts-text img {
+    height: 80px;
+    width: 80px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    cursor: default;
+    margin-top: 24%;
+}
+.what-we-do .services .ts-item:hover .ts-text img {
+    height: 100px;
+    width: 100px;
+    margin-top: 0;
+    color: white;
+}
+
+.what-we-do .services .ts-item:hover .ts-text h5 {
+    color: #ffffff;
+}
+.what-we-do .services .ts-item .ts-text h5 {
+    color: #111111;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+    margin-top: 25px;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.what-we-do .services .ts-item .ts-text p {
+    color: #ffffff;
+    margin-bottom: 8px;
+}
+
+/**********what-we-do**********/
+
+
+/********why-us*********/
+.why-us{
+    margin-bottom: 200px;
+}
+.why-us .image img {
+    width: 439px;
+    height: 684px;
+    margin-bottom: 20px;
+}
+.why-us .all .media .media-body {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 28px;
+    line-height: 34px;
+
+}
+.why-us .all .media .media-body h5 {
+    color: #F58225;
+    font-size: 22px;
+    font-weight: 700;
+}
+.why-us .headd h1 {
+    width: 248px;
+}
+/*********why-us*********/
+
+
+
+/************contact-us**********/
+.contact-us {
+    background-color: white;
+    padding: 100px;
+    margin: auto;
+    width: 50%;
+}
+.contact-us .btn{
+    width: 134px!important;
+}
+
+.contact-us .headd h1{
+    color: black;
+    margin-right: 0;
+}
+.contact-us h6 {
+    margin-top: 20px;
+    line-height: 31px;
+}
+/*******contact-us*************/
+
+
+/**********footer*******/
+footer {
+    margin-top: 200px;
+}
+footer .navbar-brand img{
+    width: 350px;
+    height: 50px;
+}
+footer .nav-link {
+    color: white!important;
+    letter-spacing: 1px!important;
+    margin-right: 40px!important;
+}
+.navbar-brand {
+    margin-right: auto!important;
+}
+footer .cals {
+    color: white;
+    font-size: 21px;
+    line-height: 39px;
+    margin-top: 33px;
+}
+footer .cals a{
+    text-decoration: none;
+    color: white;
+
+}
+footer h5{
+    color: #c7c3c3;
+    text-align: center;
+    margin-top: 40px;
+}
+
+/****footer*******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*****************************************************/
+
+
+/*responsive*/
+
+
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .top-section .content {
+        width: 71%;
+    }
+    .contact-us {
+        padding: 47px;
+        width: 70%;
+    }
+    .top-section .navbar-brand img{
+        width: 300px;
+    }
+    .top-section .nav-link {
+        margin-right: 20px!important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .top-section .content {
+        width: 71%;
+    }
+    .why-us .row,
+    .who-we-are .row{
+        display: block;
+    }
+    .who-we-are{
+        margin-top: 400px;
+    }
+    .contact-us {
+        padding: 47px;
+        width: 86%;
+    }
+    .who-we-are h1 ,
+    .what-we-do .service-top h1 {
+        margin-right: 0;
+    }
+    .contact-us .headd h1 {
+        font-size: 31px;
+        line-height: 45px;
+    }
+    .top-section .navbar-brand img,
+    footer .navbar-brand img{
+        width: 300px;
+    }
+    footer .navbar-brand img{
+        margin-top: -83px;
+    }
+
+    .top-section .nav-link {
+        margin-right: 20px!important;
+    }
+    footer .cals {
+        margin-top: 0;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .top-section .content {
+        width: 89%;
+    }
+    .undr-screen {
+        display: block;
+    }
+    .undr-screen .media-body {
+        border-right: 0;
+        margin-bottom: 33px;
+    }
+    .who-we-are{
+        margin-top: 400px;
+    }
+    .who-we-are h1 ,
+    .what-we-do .service-top h1 {
+        margin-right: 0;
+    }
+    .what-we-do .service-top {
+        margin-right: 0;
+
+    }
+    .what-we-do .row{
+        display: block;
+    }
+    .contact-us {
+        padding: 47px;
+        width: 86%;
+
+    }
+    .contact-us .headd h1 {
+        font-size: 31px;
+        line-height: 45px;
+    }
+    .top-section .navbar-brand img,
+    footer .navbar-brand img{
+        width: 250px;
+    }
+    footer .navbar-brand img{
+        margin-top: -83px;
+    }
+    footer .cals {
+        margin-top: 0;
+    }
+    .top-section .navbar{
+        background: #00000091!important;
+
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    .top-section .content {
+        width: 89%;
+    }
+    .undr-screen {
+        display: block;
+    }
+    .undr-screen .media-body {
+        border-right: 0;
+        margin-bottom: 33px;
+    }
+    .who-we-are{
+        margin-top: 500px;
+    }
+    .who-we-are h1 ,
+    .what-we-do .service-top h1 {
+        margin-right: 0;
+    }
+    .what-we-do .service-top {
+        margin-right: 0;
+
+    }
+    .what-we-do .row{
+        display: block;
+    }
+    .contact-us {
+        padding: 47px;
+        width: 86%;
+
+    }    
+    .contact-us .headd h1 {
+        font-size: 31px;
+        line-height: 45px;
+    }
+    .top-section .navbar-brand img,
+    footer .navbar-brand img{
+        width: 250px;
+    }
+    footer .navbar-brand img{
+        margin-top: -83px;
+    }
+    footer .cals {
+        margin-top: 0;
+    }
+    .top-section .content {
+        margin-top: 26%;
+    }
+    .top-section .navbar{
+        background: #00000091!important;
+
+    }
+}
+
+
